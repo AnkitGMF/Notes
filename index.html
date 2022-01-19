@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Note Taking</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Spline+Sans&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+    <div class='nav-bar'>
+        
+        <ul>
+            <li  class='nav-ele' id="nav-head"><h1 id="heading">EverNotes</h1></li>
+            <span id='first-ele'>
+                <li  class='nav-ele'>Home</li>
+                <li  class='nav-ele'><input type="text" id="search-box" placeholder="Search"/><input type="button" value="Search" id="btns"/></li>
+            </span>
+            
+        </ul>
+    </div>
+    <div class="main-container">
+        <h2 id="subhead">Give A heading to your Note</h2>
+        <textarea id = "head-text"></textarea>
+        <h2 id="subhead">Write your Notes</h2>
+        <textarea id = "text"></textarea>
+        <input type="button" value="Add Notes" id="add-notes"/>
+        <br/>
+        <br/>
+        <br/>
+        <hr/>
+        <h2 id="subhead">Your Notes</h2>
+        <hr/>
+
+        <div style="width: 100%;padding-left: 5%;" id='mainNotesTab'>
+
+            <!-- This is the JS Notes part
+                <div class="notes">
+                <h3 id='note-head'>Note</h3>
+                <hr id="note-rule"/>
+                <p>this is a note</p>
+                <input id="delete-note" type="button" value="Delete Note" id="add-notes"/>
+            </div>
+             -->
+        </div>
+    </div>
+</body>
+<script src="index.js"></script>
+</html>
