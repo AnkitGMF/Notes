@@ -98,7 +98,6 @@ hr{
     height: 2.5em;
     width: 140px;
     font-size: 1.1em;
-    outline: 2px solid #379683;
 }
 #add-notes:hover{
     float: right;
@@ -113,7 +112,6 @@ hr{
     width: 140px;
     font-size: 1.1em;
     font-weight: bold;
-    outline: none;
 }
 #search-box{
     background-color: #8EE4AF;
@@ -126,7 +124,7 @@ hr{
 }
 .notes{
     display: inline-block;
-    border:3px double #379683;
+    border:none;
     border-radius: 10px;
     padding: 10px 10px 10px 10px;
     background-color: #05386B;
